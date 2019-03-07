@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 float ratingcount = ratingBar.getRating();
 
-                Toast.makeText(getApplicationContext(), "Rating is :" + ratingcount, Toast.LENGTH_LONG).show();
+                Toast.makeText(getApplicationContext(), "Rating is:" + ratingcount, Toast.LENGTH_LONG).show();
             }
         });
     }
